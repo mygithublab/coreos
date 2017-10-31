@@ -1,0 +1,12 @@
+#cloud-config
+hostname: coreOS_MyfirstLab
+users:
+        - name: core
+          ssh-authorized-keys:
+                - ssh-rsa AAAA............tyH C51......
+        - groups:
+               - sudo
+                - docker
+coreos:
+  update:
+    reboot-strategy: off
