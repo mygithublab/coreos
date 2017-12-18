@@ -2,7 +2,7 @@
 hostname: coreOS_MyfirstLab
 users:
         - name: core
-          ssh-authorized-keys:
+          ssh_authorized_keys:
                 - ssh-rsa AAAA............tyH C51......
         - groups:
                - sudo
