@@ -1,12 +1,12 @@
 #cloud-config
 hostname: CoreOS
 users:
-        - name: core
-          ssh_authorized_keys:
-                - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyW8OPL3M4NkBRNtX+vnyd1PBWR+nw6GxiYclhEfxOCR5UAMgCWZjUtkuofyUdsFEy1J0v6v7smR3NJoyreKYAYqJhscOLjaqaHrsZv3OXJJvVqB1S9x3B+sQgBX2rW4jMluOhwgjCgV82fay1VtZZZ+EqttHolRTKvPlbnixTW+2ZIJ/YZB+ErGuQ6QGNs9NP4FpMMGeQVbNcqbEfRa/WLVtlBIawM+EiJARaTMgixm9Qs51UkhHU4CU0leom1yNuN0LzHS3I2bjVAwip/GtymFehW5+G9ZcD+ykxJhxQnEnXWICjojDkGlXzCkH+TBw2KSvnXCsyZz0gzBJuoic4yzFVmHqezQa0SFXKNB3q3mHtu5jmyy2nx0qTW3CIGj5EgQQR+Bvm51+tRDyGnXjivOT+yhIe+ZindBFc+v0ilNsrE2Xti2zkuFjMrycjnduNEsPuXnzNo1ERwDwfXMeDMVXHVtUNph485mvIrdLAE5g+d53DFey27v3nmy7hKPQ3P1qz1d62pI+b3thL8aCxT/gTgN3ThDQAPpNDQ/pCCpA/xca7dew+78JCf2957zqSIw6JtB0I19qPMUVpvrPVdYGj76nsPbiwCI25c+xpg1xmJcClc0ta7Y3SR0IgfS16m0kjux5vSVGvwKPM7T7vN3Q3q4c2+hIKm5wYcGXUHw== mygithublab
-        - groups:
-                - sudo
-                - docker
+    - name: core
+      ssh_authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyW8OPL3M4NkBRNtX+vnyd1PBWR+nw6GxiYclhEfxOCR5UAMgCWZjUtkuofyUdsFEy1J0v6v7smR3NJoyreKYAYqJhscOLjaqaHrsZv3OXJJvVqB1S9x3B+sQgBX2rW4jMluOhwgjCgV82fay1VtZZZ+EqttHolRTKvPlbnixTW+2ZIJ/YZB+ErGuQ6QGNs9NP4FpMMGeQVbNcqbEfRa/WLVtlBIawM+EiJARaTMgixm9Qs51UkhHU4CU0leom1yNuN0LzHS3I2bjVAwip/GtymFehW5+G9ZcD+ykxJhxQnEnXWICjojDkGlXzCkH+TBw2KSvnXCsyZz0gzBJuoic4yzFVmHqezQa0SFXKNB3q3mHtu5jmyy2nx0qTW3CIGj5EgQQR+Bvm51+tRDyGnXjivOT+yhIe+ZindBFc+v0ilNsrE2Xti2zkuFjMrycjnduNEsPuXnzNo1ERwDwfXMeDMVXHVtUNph485mvIrdLAE5g+d53DFey27v3nmy7hKPQ3P1qz1d62pI+b3thL8aCxT/gTgN3ThDQAPpNDQ/pCCpA/xca7dew+78JCf2957zqSIw6JtB0I19qPMUVpvrPVdYGj76nsPbiwCI25c+xpg1xmJcClc0ta7Y3SR0IgfS16m0kjux5vSVGvwKPM7T7vN3Q3q4c2+hIKm5wYcGXUHw== mygithublab
+    - groups:
+        - sudo
+        - docker
 coreos:
   update:
     reboot-strategy: off
