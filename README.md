@@ -12,3 +12,5 @@
 6. cd ~/coreos/
 
 7. coreos-install -d /dev/sda -c cloud-config.yaml
+
+8. input "reboot" to restart system and apply cloud-config.yaml file
