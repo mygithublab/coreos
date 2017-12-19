@@ -7,7 +7,7 @@
 
 4. cd~/
 
-5. git clone URL which yaml file
+5. git clone https://github.com/mygithublab/coreos.git
 
 6. cd ~/coreos/
 
